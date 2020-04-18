@@ -1,0 +1,10 @@
+
+\.idea/
+
+*.pyc
+
+pt
+logdir
+runs
+.vscode
+Pipfile

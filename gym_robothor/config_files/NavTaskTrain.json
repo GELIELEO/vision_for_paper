@@ -1,0 +1,38 @@
+{
+    "use_priors": true,
+    "mode": "m",
+    "k": 1,
+    "m": ["keypoints3d"],
+    
+    "grayscale": false,
+    "resolution": [64, 64],
+    "build_file_name": false,
+
+    "movement_reward":-0.01,
+    "max_episode_length":256,
+    "task": {
+        "task_name": "NavTask"
+    },
+    
+    "scene": "FloorPlan_Train1_1",
+    "width": 300,
+    "height": 300,
+
+    "initialize":{
+    "cameraY": 0.675,
+    "fieldOfView": 120.0,
+    "rotateStepDegrees": 90,
+    "visibilityDistance": 1.2,
+    "agentType": null,
+    "agentMode": "bot",
+
+    "gridSize": 0.25,
+    "continuousMode": false,
+    "snapToGrid": false,
+    "applyActionNoise": false,
+    "renderDepthImage": false,
+    "renderClassImage": false,
+    "renderObjectImage": false
+    }
+
+}

@@ -1,0 +1,1 @@
+from gym_robothor.envs.robothor_env import RoboThorEnv, env_generator
